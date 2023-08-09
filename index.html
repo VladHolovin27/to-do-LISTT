@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="myform">
+    <input type="text" autocomplete="off" name="text">
+    <select name="category">
+      <option value="task">Task</option>
+      <option value="idea">Idea</option>
+    </select>
+
+    <button type="submit">Add</button>
+  </form>
+
+  <form id="editform" style="display: none;">
+    <input type="text" autocomplete="off" name="text">
+    <select name="category">
+      <option value="task">Task</option>
+      <option value="idea">Idea</option>
+    </select>
+
+    <button type="submit">Edit</button>
+  </form>
+
+  <ul class="ul"></ul>
+
+  <script src="main.js"></script>
+</body>
+</html>
